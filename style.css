@@ -1,0 +1,52 @@
+article, form {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px
+}
+
+/* Hiding instructions*/
+#intro {
+  display: none;
+}
+
+.container {
+  width: 1300px;
+}
+
+#taxCalc ul {
+  list-style: none;
+  border-top: 10px solid #2e98cc;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+  #taxCalc li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  .lowerTax {
+    background-color: #f4874c;
+  }
+  #message {
+    padding-left: 40px;
+    color: #667682;
+  }
+  #taxCalc h1 {
+    font-family: "calluna", Georgia, "Times New Roman", serif;
+    color: #667682;
+  }
+  #taxCalc label {
+    font-family: 'Whitney SSm A', 'Whitney SSm B', Arial, sans-serif;
+    padding-right: 5px;
+    color: #667682;
+  }
+  #taxCalc input {
+    padding: 5px;
+  }
+  #taxCalc input[type=submit] {
+    background-color: #54add9;
+    color: white;
+    border: none;
+    padding: 10px;
+    text-transform: uppercase;
+    font-family: 'Whitney SSm A', 'Whitney SSm B', Arial, sans-serif;
+  }
